@@ -1,0 +1,92 @@
+
+.imageSizing{
+    float: left;
+    width: 37%;
+    height: 900px;  
+}
+
+.allSection{
+    float: right;
+    width: 62%;
+}
+
+.bodi{
+    margin: 0 auto;
+    background-color:ghostwhite;
+}
+  
+.heading{
+    background-color:rgb(27, 19, 19);
+    text-align: center;
+    color: aliceblue;
+    margin: 0px;
+    height: 30px;
+}
+
+.bringdown{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#allfieldstitle{
+    margin: 5px 0px;
+}
+
+.bringdown{
+    
+}
+
+
+#submitStyle {
+    border-radius: 6px;
+    background-color:green;
+    cursor: pointer;
+    box-shadow: 6px 7px 7px #0000006b;
+}
+
+#submitStyle :hover {
+    background-color:rgb(0, 4, 128);
+}
+
+.resetStyle {
+    /*background-color: rgb(255, 192, 224);
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 6px 7px 7px #0000006b;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    font-size: medium;*/
+    background-color: rgb(25, 218, 25);
+    margin-right: 15px;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 11px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: medium;
+    box-shadow: 6px 7px 7px #0000006b;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.resetStyle:hover{
+    background-color: rgb(252, 7, 19);
+    padding: 7px 14px;
+    transition: 0.8;
+ }
+
+#FirstName_id, #MiddleName_id, #LastName_id, #Phone, #Email_id, #NIN_id, #DOB, #address, #High_school, #High_address{
+    width: 100%;
+}
+
+hr{
+    height: 2px;  
+    background-color:rgb(255, 166, 0);  
+    border: 1px; 
+  
+}  
+

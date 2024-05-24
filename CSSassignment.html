@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <title>HTML/CSS Assignment</title>
+    <link rel ="stylesheet" href ="CSSassignment.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body class ="bodi">
+        <h2 class = "heading">Student Online Registration Form</h2>
+
+        <section1>
+           <!--<img class = "imageSizing" src="https://previews.123rf.com/images/sifotography/sifotography1702/sifotography170200050/71829712-confused-skeptical-woman-thinking-looking-at-you-with-disapproval.jpg">-->
+            <img class = "imageSizing" src="C:\Users\ONE CARD\Desktop\All_Seyi's_Doc\FreeTrainning\WhatsApp Image 2024-05-16 at 22.20.43.jpeg">
+        </section1>
+
+        <section2 class = "allSection">
+            
+            <form action="/fake-server" method="post">
+                
+                    <b><h4 class = "bringdown">Student Profile</h4></b>
+                    <hr>
+                    
+                    <div id = "allfieldstitle">
+                        <label for ="FirstName_id" >First Name:</label><br>
+                        <input id= "FirstName_id" type ="text" name ="First Name" required />
+                    </div>
+                    
+                    <div id = "allfieldstitle">
+                        <label for ="MiddleName_id" >Middle Name:</label><br>
+                        <input id= "MiddleName_id" type ="text" name ="Middle Name"/></b>
+                    </div>
+
+                    <div id = "allfieldstitle">
+                        <label for ="LastName_id" >Last Name:</label><br>
+                        <input id= "LastName_id" type ="text" name ="Last Name" required /></b>
+                    </div>
+
+                    <div id = "allfieldstitle">
+                        <label for ="Phone" >Phone Number:</label><br>
+                        <input id= "Phone" type ="tel" name ="Phone Number" minlength="10" maxlength="14" placeholder="234 706 3989 071" /></b>
+                    </div>
+
+                    <div id = "allfieldstitle">
+                        <label for ="Email_id" >Email Address:</label><br>
+                        <input id= "Email_id" type ="email" name ="Email Address" placeholder="Valid Email Address e.g jbuni@gmail.com" required /></b>
+                    </div>
+
+                    <div id = "allfieldstitle">
+                        <label for ="NIN_id" >National ID:</label><br>
+                        <input id= "NIN_id" type ="text" name ="National ID" required  minlength="10" maxlength="10"/></b>
+                    </div>
+                    
+                    <div id = "allfieldstitle">
+                        <label for="DOB">Date of Birth:</label><br>
+                        <input id="DOB" type="date" max="2009-05-09" required/>
+                    </div> 
+
+                    <div id = "allfieldstitle">
+                        <label for="Address" >Student Address:</label><br>
+                        <textarea id="address" name="address" rows="4" cols="45" ></textarea>
+                    </div>
+
+
+                    <div>
+                    <h4 class= "bringdown" >Student Academic History</h4><hr>
+                        
+                        <label for="High_school">Name of High School:</label><br/>
+                        <input id = "High_school" type="text" name="High_school" /><br/>
+                            
+                        <label class = "high_address" for="High_address">High School address:</label><br/>
+                        <input id = "High_address" type="text" name="High_address" /><br />
+                        
+                            <p>Graduating grade:</p>
+                            <label for="First_class">A:</label>
+                            <input id="First_class" type="radio" name="Grade" />
+                            <label for="Second_class_upper">B:</label>
+                            <input id="Second_class_upper" type="radio" name="Grade" />
+                            <label for="Second_class_lower">C:</label>
+                            <input id="Second_class_lower" type="radio" name="Grade" />
+                            <label for="Third_class">D:</label>
+                            <input id="Third_class" type="radio" name="Grade" />
+                            <label for="Fourth_class">E:</label>
+                            <input id="Fourth_class" type="radio" name="Grade" />
+                            <br />
+                            <p>Courses Offered:</p>
+                            <label for="Mathematics">Mathematics:</label>
+                            <input id="Mathematics" type="checkbox" name="Mathematics" />
+                            <label for="English">English:</label>
+                            <input id="English" type="checkbox" name="English" />
+                            <label for="Economics">Economics:</label>
+                            <input id="Economics" type="checkbox" name="Economics" />
+                            <label for="CRS">History:</label>
+                            <input id="CRS" type="checkbox" name="CRS" />
+                            <label for="Chemistry">Chemistry:</label>
+                            <input id="Chemistry" type="checkbox" name="Chemistry" />
+                            <br />
+                    </div>
+
+                    <div>
+                        <h4 class = "bringdown">Student Conscent</h4>
+                        <hr>        
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="consent-checkbox" required/>
+                        <label for="consent-checkbox" >I have read and agree to the terms and conditions</label>
+                    </div>
+
+                    <div ><b>
+                        <!--<button style= "color:green;"type= "submit" onclick="alert('Click ok to confirm your registeration details before Submitting')">Register</button>-->
+                        <button id = "submitStyle" type= "submit">Register Student</button>
+                        <button id = "resetStyle"  class ="resetStyle" type="reset">Clear Form</button></b>
+                    </div>         
+            </form>
+        </section2>    
+</body>
